@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation .btns-wraper {
+  display: flex;
+  gap: 4em;
+}
+
+.product_form {
+  padding: 2em 0em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.product_form input, .product_form select {
+  width: 15em;
+  font-size: 1rem;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+.product_form select {
+  background-color: white;
+  padding: 0.3em 1em;
+  cursor: pointer;
+}
+
+ul {
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: flex-start;
+  gap: 2em;
+}
+ul li {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}/*# sourceMappingURL=main.css.map */

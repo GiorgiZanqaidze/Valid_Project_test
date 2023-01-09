@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.App {
+    padding: 2em 3em;
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    padding: 0.5em 1em ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+    transition: box-shadow 0.2s linear;
+}
+.btn:hover {
+    box-shadow: 5px 5px 5px 1px black;
+}
+
+.container {
+    min-height: 100vh;
+    margin-top: 2em;
+}
+
+.box-border {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

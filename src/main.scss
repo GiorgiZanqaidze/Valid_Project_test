@@ -1,0 +1,44 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btns-wraper {
+        display: flex;
+        gap: 4em;
+    }
+}
+
+.product_form {
+    padding: 2em 0em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    
+    input, select {
+        width: 15em;
+        font-size: 1rem;
+        margin-left: 2em;
+        margin-top: 1em;
+    }
+
+    select {
+        background-color: white;
+        padding: .3em 1em;
+        cursor: pointer;
+    }
+}
+
+ul {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-start;
+    gap: 2em;
+    li {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+}
